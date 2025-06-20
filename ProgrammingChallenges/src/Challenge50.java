@@ -1,3 +1,5 @@
+//Create a program to merge two sorted arrays
+
 public class Challenge50 {
     public static void main(String[] args) {
         System.out.println("Welcome User");
