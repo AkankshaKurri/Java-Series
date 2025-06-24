@@ -1,6 +1,6 @@
 //Create a program to check is the array is palindrome or not
 
-public class PalindromeArray {
+class PalindromeArray {
     public static void main(String[] args) {
         System.out.println("Welcome user");
         int[] array = ArrayUtility.inputArray();

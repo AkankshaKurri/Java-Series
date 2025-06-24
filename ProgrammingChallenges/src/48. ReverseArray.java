@@ -1,6 +1,6 @@
 //create a program to reverse an array
 
-public class ReverseArray {
+class ReverseArray {
     public static void main(String[] args) {
         System.out.println("Welcome user");
         int[] array = ArrayUtility.inputArray();
