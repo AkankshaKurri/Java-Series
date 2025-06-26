@@ -1,8 +1,8 @@
 //Develop a program that prints the multiplication table for a given number.
-
+//using While Loop
 import java.util.Scanner;
 
-class MultiplicationTable {
+class MultiplicationTableUsingWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter number: ");
@@ -11,8 +11,10 @@ class MultiplicationTable {
     }
 
     public static void printTable(int num){
-        for(int i= 1; i <= 10 ; i ++){
-            System.out.println(num + " * " + i + " = " + num*i);
-        }
+       int i= 1;
+       while(i <= 10){
+           System.out.println(num + "*" + i + "=" + num*i);
+           i++;
+       }
     }
 }

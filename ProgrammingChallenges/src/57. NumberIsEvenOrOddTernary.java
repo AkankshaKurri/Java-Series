@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class NumberIsEvenOrOdd {
+class NumberIsEvenOrOddTernary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter the number:");

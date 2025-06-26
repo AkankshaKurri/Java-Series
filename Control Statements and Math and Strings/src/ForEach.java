@@ -6,6 +6,7 @@ public class ForEach {
     }
 
     public static void printArrayForLoop(String[] arr){
+        //For Loop
         for(int i=0 ; i < arr.length ; i++){
             System.out.print(arr[i] + " ");
         }
@@ -14,6 +15,7 @@ public class ForEach {
 
 
     public static void printArrayForEach(String[] arr){
+        //For Each Loop
         for(String name : arr){
             System.out.print(name + " ");
         }
