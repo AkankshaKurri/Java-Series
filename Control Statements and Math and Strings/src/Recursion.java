@@ -1,5 +1,7 @@
-import java.util.Scanner;
+//Remember: base is very important in recursion
+//Otherwise it runs infinite
 
+import java.util.Scanner;
 public class Recursion {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
