@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class StringManipulation {
+class StringManipulation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter any text:");
