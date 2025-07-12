@@ -23,6 +23,9 @@ public class TestPassByReference {
         }
     }
 
+//  A static method move that takes a Point object as a parameter.
+//  It increments both x and y values of that point.
+//  Even though Java is pass-by-value, the value passed is the reference to the object, so the object itself is modified.
     public static void move(Point p){
         p.x++;
         p.y++;
@@ -31,6 +34,8 @@ public class TestPassByReference {
     public static void main(String[] args) {
         Point point = new Point(5,6);
         System.out.println(point);
+//      When you call move(point), Java copies the reference (address) of the object.
+//      So the method can change the object’s data (x and y).
         move(point);
         System.out.println(point);
     }
