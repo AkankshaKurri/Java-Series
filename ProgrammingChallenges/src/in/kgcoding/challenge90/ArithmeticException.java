@@ -21,7 +21,11 @@ public class ArithmeticException {
             int num2 = scanner.nextInt();
             int result = num1 / num2;
         } catch (java.lang.ArithmeticException e) {
-            System.out.println(e.getMessage());
+            if(e.getMessage().equals("/ by zero")){
+                System.out.println("Error: Division by zero");
+            }else{
+                throw e;
+            }
         } finally {
             System.out.println("All work done");
         }
