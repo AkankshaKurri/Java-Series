@@ -38,12 +38,12 @@ public class TestingList {
         //✅ Creates a List that stores String objects, implemented using an ArrayList.
         //<> (diamond operator) infers type from the left-hand side: <String>.
         List<String> strList = new ArrayList<>();
-        strList.add("Akanksha");
-        strList.add("Kurri");
+        strList.add("Akanksha");  //add string
+        strList.add("Kurri");     //add string
 
-        strList.add(1, "Ramesh");
+        strList.add(1, "Ramesh");  //add string at index "1"
 
-        strList.remove(1);
+        strList.remove(1);   //remove string from index "1"
 
         //List ka jo "contains" method hai, woh slow hai as compared to Set
         //Because yeh ek ek element ko scheck karta hai match ho rha hai ya nhi

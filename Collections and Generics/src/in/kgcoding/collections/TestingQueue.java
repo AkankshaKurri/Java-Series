@@ -19,8 +19,8 @@ import java.util.Queue;
 public class TestingQueue {
     public static void main(String[] args) {
          Queue<Integer> queue = new LinkedList<>();
-         queue.add(1);
-         queue.offer(2);
+         queue.add(1);  //add integer
+         queue.offer(2);  //add integer
 
         System.out.print("Collections are:");
         for(Integer i : queue){
@@ -28,11 +28,11 @@ public class TestingQueue {
         }
         System.out.println();
 
-        System.out.println(queue.element());
-        System.out.println(queue.peek());
+        System.out.println(queue.element());  //returns 1
+        System.out.println(queue.peek());    //returns 1
 
-        System.out.println(queue.remove());
-        System.out.println(queue.poll());
+        System.out.println(queue.remove());   //Remove "1" and returns 1
+        System.out.println(queue.poll());     //Remove "2" and returns 2
 
         System.out.print("Collections are:");
         for(Integer i : queue){
