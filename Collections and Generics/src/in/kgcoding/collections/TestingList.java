@@ -51,14 +51,20 @@ public class TestingList {
             System.out.printf("Yes it exists at %d\n", strList.indexOf("Akanksha"));
         }
 
-        for(int i = 0; i < strList.size(); i++) {
-            System.out.print(strList.get(i));
-        }
+        printStr(strList);
 
         System.out.println();
 
+        printStr(strList);
+    }
+
+    public static void printStr(List<String> strList){
         for(String str : strList){
             System.out.print(str);
         }
+
+//        for(int i = 0; i < strList.size(); i++) {
+//            System.out.print(strList.get(i));
+//        }
     }
 }

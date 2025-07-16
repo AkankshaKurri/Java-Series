@@ -22,11 +22,7 @@ public class TestingQueue {
          queue.add(1);  //add integer
          queue.offer(2);  //add integer
 
-        System.out.print("Collections are:");
-        for(Integer i : queue){
-            System.out.printf("%d ",i);
-        }
-        System.out.println();
+        printQueue(queue);
 
         System.out.println(queue.element());  //returns 1
         System.out.println(queue.peek());    //returns 1
@@ -34,14 +30,18 @@ public class TestingQueue {
         System.out.println(queue.remove());   //Remove "1" and returns 1
         System.out.println(queue.poll());     //Remove "2" and returns 2
 
+        printQueue(queue);
+
+        //System.out.println(queue.remove()); //returns exception
+        System.out.print(queue.poll());  //returns null
+
+    }
+
+    public static void printQueue(Queue<Integer> queue) {
         System.out.print("Collections are:");
         for(Integer i : queue){
             System.out.printf("%d ",i);
         }
         System.out.println();
-
-        System.out.println(queue.remove()); //returns exception
-        System.out.println(queue.poll());  //returns null
-
     }
 }
