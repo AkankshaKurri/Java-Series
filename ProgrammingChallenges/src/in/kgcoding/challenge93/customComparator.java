@@ -1,6 +1,13 @@
 //Write a program that sorts a list of String objects in descending
 //order using a custom Comparator.
 
+//        | Return Value | Meaning                    | Effect in Sorting     |
+//        | ------------ | -------------------------- | --------------------- |
+//        | `-1`         | `o1` comes **before** `o2` | `o1 < o2`             |
+//        | `0`          | `o1` is **equal to** `o2`  | No change in position |
+//        | `1`          | `o1` comes **after** `o2`  | `o1 > o2`             |
+
+
 package in.kgcoding.challenge93;
 
 import java.util.ArrayList;
@@ -26,12 +33,16 @@ public class customComparator {
         Collections.sort(newstrList, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
+                // Agar dono string same hain
                 if(o1.equals(o2)){
-                    return 0;
-                }else if(o1.charAt(0) < o2.charAt(0)){
-                    return 1;
-                }else {
-                    return -1;
+                    return 0; // koi badlav nahi
+                }
+                // Agar pehla word chhota hai dusre se (ASCII ke hisaab se)
+                else if(o1.charAt(0) < o2.charAt(0)){
+                    return 1; // o2 pehle aayega
+                }
+                else {
+                    return -1; // o1 pehle aayega
                 }
             }
         });
@@ -42,12 +53,16 @@ public class customComparator {
         Collections.sort(newstrList, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
+                // Agar dono string same hain
                 if(o1.equals(o2)){
-                    return 0;
-                }else if(o1.charAt(0) < o2.charAt(0)){
-                    return -1;
-                }else {
-                    return 1;
+                    return 0; // koi badlav nahi
+                }
+                // Agar pehla word chhota hai dusre se
+                else if(o1.charAt(0) < o2.charAt(0)){
+                    return -1; // o1 pehle aayega
+                }
+                else {
+                    return 1; // o2 pehle aayega
                 }
             }
         });

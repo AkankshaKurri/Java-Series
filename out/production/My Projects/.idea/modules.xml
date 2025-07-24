@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Comments and Loops and Function and Parameter and Argument/Comments and Loops and Function and Parameter and Argument.iml" filepath="$PROJECT_DIR$/Comments and Loops and Function and Parameter and Argument/Comments and Loops and Function and Parameter and Argument.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Abstraction and Polymorphism/Abstraction and Polymorphism.iml" filepath="$PROJECT_DIR$/Abstraction and Polymorphism/Abstraction and Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes and Objects/Classes and Objects.iml" filepath="$PROJECT_DIR$/Classes and Objects/Classes and Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections and Generics/Collections and Generics.iml" filepath="$PROJECT_DIR$/Collections and Generics/Collections and Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Comments and Loops and Function and Parameter and Argument and Array/Comments and Loops and Function and Parameter and Argument and Array.iml" filepath="$PROJECT_DIR$/Comments and Loops and Function and Parameter and Argument and Array/Comments and Loops and Function and Parameter and Argument and Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Control Statements and Math and Strings/Control Statements and Math and Strings.iml" filepath="$PROJECT_DIR$/Control Statements and Math and Strings/Control Statements and Math and Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Datatypes and Escape Sequences/Datatypes and Escape Sequences.iml" filepath="$PROJECT_DIR$/Datatypes and Escape Sequences/Datatypes and Escape Sequences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation and Inheritance/Encapsulation and Inheritance.iml" filepath="$PROJECT_DIR$/Encapsulation and Inheritance/Encapsulation and Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception and File handling/Exception and File handling.iml" filepath="$PROJECT_DIR$/Exception and File handling/Exception and File handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading and Executer Service/Multithreading and Executer Service.iml" filepath="$PROJECT_DIR$/Multithreading and Executer Service/Multithreading and Executer Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/My Projects.iml" filepath="$PROJECT_DIR$/My Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators and If else and Number System/Operators and If else and Number System.iml" filepath="$PROJECT_DIR$/Operators and If else and Number System/Operators and If else and Number System.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProgrammingChallenges/ProgrammingChallenges.iml" filepath="$PROJECT_DIR$/ProgrammingChallenges/ProgrammingChallenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/User Input and Type Conversion and Type Casting/User Input and Type Conversion and Type Casting.iml" filepath="$PROJECT_DIR$/User Input and Type Conversion and Type Casting/User Input and Type Conversion and Type Casting.iml" />
     </modules>
   </component>
